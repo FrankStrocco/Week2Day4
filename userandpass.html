@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="userandpass.js"></script>
+    <title>Checker</title>
+  </head>
+  <body>
+    <h1> Username and Password Checker</h1>
+
+    <p>
+      <input type="text" placeholder="enter username" id="usernameInput"/>
+      <br />
+      <input type="text" placeholder="enter password" id="passwordInput"/>
+      <br />
+      <input type="button" value="Submit" onclick="verifyInfo()"/>
+    </p>
+    <p>
+      <ul>
+        <li>User ID and password cannot be the same</li>
+        <li>User ID and password have to be at least six characters long</li>
+        <li>User ID cannot contain the following characters: !#$</li>
+        <li>Password has to contain at least one of: !#$</li>
+        <li>Password cannot be "password"</li>
+      </ul>
+    </p>
+
+
+
+  </body>
+</html>
